@@ -1,0 +1,31 @@
+#DESAFIO 09: Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+
+#Minha resolução
+num = int(input('Digite um número para ver sua tabuada: '))
+print('=' * 40)
+print(num, 'x 1 =', 1 * num)
+print(num, 'x 2 =', 2 * num)
+print(num, 'x 3 =', 3 * num)
+print(num, 'x 4 =', 4 * num)
+print(num, 'x 5 =', 5 * num)
+print(num, 'x 6 =', 6 * num)
+print(num, 'x 7 =', 7 * num)
+print(num, 'x 8 =', 8 * num)
+print(num, 'x 9 =', 9 * num)
+print(num, 'x 10 =', 10 * num)
+print('=' * 40)
+
+#Resolução do professor
+num = int(input('Digite um número para ver sua tabuada: '))
+print('-' * 12)
+print('{} x {:2} = {}'.format(num, 1, num * 1))
+print('{} x {:2} = {}'.format(num, 2, num * 2))
+print('{} x {:2} = {}'.format(num, 3, num * 3))
+print('{} x {:2} = {}'.format(num, 4, num * 4))
+print('{} x {:2} = {}'.format(num, 5, num * 5))
+print('{} x {:2} = {}'.format(num, 6, num * 6))
+print('{} x {:2} = {}'.format(num, 7, num * 7))
+print('{} x {:2} = {}'.format(num, 8, num * 8))
+print('{} x {:2} = {}'.format(num, 9, num * 9))
+print('{} x {:2} = {}'.format(num, 10, num * 10))
+print('-' * 12)
